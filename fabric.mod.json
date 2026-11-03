@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "novaclient",
+  "version": "${version}",
+  "name": "NovaClient",
+  "description": "A Rimuru-blue, Tempest-inspired Fabric client-side HUD and settings mod.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.nova.client.NovaClient"] },
+  "mixins": ["nova.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
